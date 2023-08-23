@@ -146,6 +146,12 @@ button:active {
   margin: 0 auto;
 }
 
+.row__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* HIGHLIGHTS */
 #highlights {
   position: relative;
@@ -269,5 +275,11 @@ FEATURES
 }
 
 /* LATEST */
+
+/* EXPLORE */
+
+#explore {
+    background-color: rgba(115, 66, 214, 0.1);
+}
 
 
